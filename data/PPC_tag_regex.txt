@@ -1,0 +1,412 @@
+1.//United States v. Willow River Power Co., 324 U.S. 499 (1945)
+regexp=/(.*?),\s+(\d{1,10})\s+(\w.\w.)\s+(\d{1,10})\s+\((\d{4})\)/   
+
+2.//Balanced Budget Act of 1997, P.L. 105-133, 111 Stat. 251
+regexp=/(.*?).\s+(Pub. L. No.|Pub. L.)\s+(\d{1,10})(-)(\d{1,10})[,.]?\s+(\d{1,10})\s+(Stat|stat)[.]?\s+(\d{1,10})[/\s.]?\(?(\d{4})?\)?/
+
+3.//Alderdice v. American Health Holding, Inc., 118 F. Supp. 2d 856 (S.D. Ohio 2000)
+regexp=/(.*?),\s+(\d{1,10})\s+(\w.\s+\w{1,10}.\s+\d{1,10}\w)\s+(\d{1,10})\s+\((\w.\w.\s+\w{1,15})\s+(\d{4})\)/    
+
+4.//Harlow v. Fitzgerald, 457 U.S. 800, 818 (1982)
+regexp=/(.*?),\s+(\d{1,10})\s+(\w.\w.)\s+(\d{1,10}),\s+([0-9-]+)\s+\((\d{4})\)/    
+
+5.//Telecommunications Act of 1996, Pub. L. No. 100-104, 110 Stat. 56 (2000)
+regexp=/(.*?),\s+(\d{1,10})\s+(\w.\w.)\s+(\d{1,10}),\s+(\d{1,10})\s+\((\d{4})\)/    
+
+6.//United States v. Lopez-Lima, 738 F. Supp. 1404, 1413 (S.D. Fla. 1990)
+regexp=/(.*?),\s+(\d{1,10})\s+(\w.\s+\w{1,10}.)\s+(\d{1,10}),\s+(\d{1,10})\s+\((.*?)\s+(\d{4})\)/    
+
+7.//Public Law 103-417, 103rd Congress (October 25, 1994), Dietary Supplement and Health Education Act of 1994
+regexp=/(.*?)\s+\((\w+)\s+(\d{1,2}),\s+(\d{4})\)(.*?)$/    
+
+8.//Water Keeper Alliance, Inc. v. Smithfield Foods, Inc., 2001 U.S. Dist. LEXIS 21314 at 12 (E.D.N.C. 2001)
+regexp=/(.*?),\s+(\d{1,10}\s+\w.\w.\s+\w{1,10}.\s+\w+\s+\d+)\s+(\w{2})\s+(\d{1,10})\s+\((.*?)\s+(\d{4})\)/    
+
+9.//In re Am. Rivers & Idaho Rivers United, No. 03-1122, 2004 U.S. App. LEXIS 12238 (D.C. Cir. June 22, 2004)
+regexp=/(.*?),\s+(\d{1,10}\s+\w.\w.\s+\w{1,15}.\s+\w+\s+\d+)[,]?\s+\((.*?)\s+(\w{3,10})[.]?\s+(\d{1,2}),\s+(\d{4})\)/    
+
+10.// Brief in Opposition to Petitions for a Writ of Certiorari at *15-16, 2003 WL 22428082, S. Utah Wilderness Alliance (No. 02-1703)
+regexp=/(.*?)\s+(\w{2})\s+\*(\d{1,10}-\d{1,10}),\s+(\d{4}\s+\w{1,10}\s+\d+)(.*?)$/
+
+11.//Norton v. S. Utah Wilderness Alliance, 542 U.S. 55, 124 S. Ct. 2373, 2382 (2004) 
+regexp=/(.*?),\s+(\d{1,10})\s+(.*?)\s+(\d{1,10}),\s+(\d{1,10})\s+(.*?)\s+(\d{1,10},\s+\d{1,10})\s+\((\d{4})\)/
+
+12.//Franklin v. Moss, 1937 Mo. LEXIS 484, at 11, 101 S.W.2d 711, 714 (1937)
+regexp=/(.*?),\s+(\d{1,10}\s+\w{1,10}.\s+\w+\s+\d{1,10}),\s+(\w{1,10})\s+(\d{1,10}),\s+(\d{1,10})\s+(.*?)\s+(.*?)\s+\((\d{4})\)/
+
+13.//Combined Petition for Panel Rehearing and Rehearing En Banc at 11, NTP, Inc. V. Research in Motion, Ltd., No. 03-1615, 2005 U.S. App. LEXIS 23112 (Fed. Cir. Oct. 1, 2005)
+regexp=/(\w{2})\s+(\d{2}),\s+(.*?),\s+(\d{4}.*?)\s+\((.*?)\s+(\w{1,10}).\s+(\d),\s+(\d{4})\)/
+
+14.//In re Laura H., 509 EHLR 242, 245 (Mass. SEA 1988)
+regexp=/(.*?),\s+(\d{1,10})\s+(.*?)\s+(\d{1,10}),\s+(\d{1,10}|\d{1,10}-\d{1,10})\s+\((.*?).(\d{4})\)/
+
+15.//509 EHLR 242 (Mass. SEA 1988)
+regexp=/(.*?)(\d{1,10})\s+(.*?)\s+(\d{1,10})\s+\((.*?).(\d{4})\)/
+
+16.//Avena and Other Mexican Nationals (Mex. v. U.S.), 2004 I.C.J. 12, 72 (Mar. 31)
+regexp=/(.*?),\s+(\d{4})\s+(.*?)\s+(\d{1,10}),\s+(\d{1,10})\s+\((.*?).\s+(\d{1,2})\)/
+
+17.//Purdum v. Edwards, 141 A. 550, 553 (Md. 1928)
+regexp=/(.*?),\s+(\d{1,10})\s+(.*?)\s+(\d{1,10}),\s+(\d{1,10})\s+\((.*?)\s+(\d{4})\)/
+
+18.//23 AM. JUR., Fraud and Deceit § 184, at 1008-09 (1939)
+regexp=/(.*?),\s+(\w{2})\s+(\d{1,10}-\d{1,10})\s+\((\d{4})\)/
+
+19.//58 Op. Cal. Att''y Gen. 21 (1975), 1975 Cal. AG LEXIS 3
+regexp=/(.*?)\s+\((\d{1,10})\),\s+(.*?)\s+(\d)/
+
+20.//U.S. CONST. art. III, &#167; 12, cls. 85
+regexp=/(.*?)\s+(\w{3}.\s+\w{1,10}),\s+(&#\d{3};\s+\d{1,10}),\s+(\w{1,10}).\s+(.*?)$/
+
+21.//U.S. CONST. art. III, Amendment XIV, &#167; 2, cl. 8
+regexp=/(.*?)\s+(\w{3}.\s+\w{1,10}),\s+(Amendment\s+\w{1,10}),\s+(&#\d{3};\s+\d{1,10}),\s+(\w{1,10}).\s+(.*?)$/
+
+22.//Prison Litigation Reform Act, Pub. L. No. 104-134 (Apr. 16, 1996), 110 Stat. 1321 (1996).
+regexp=/(.*?).\s+(Pub. L. No.|Pub. L.)\s+(\d{1,10})(-)(\d{1,10})[.]?\s+\(([a-zA-Z.]+)\s+(\d{1,2}),\s+(\d{4})\),\s+(\d{1,10})\s+(Stat|stat)[.]?\s+(\d{1,10})\s+\((\d{4})\)/
+
+23.//16 U.S.C. &#167; 1538(a)(1) (2006)    
+regexp=/([0-9]+)\s+(U.S.C.|C.F.R.)\s+(.*?)\s+\((\d{4})\)/
+
+24.//Pittslley v. Warish, 927 F.2d 3 (1st Cir.)
+regexp=/([A-Z][A-Za-z \.]+), ([0-9\-]+) ([A-Z][A-Za-z \.]+) ([0-9]+) \((\d{4})\)/
+
+25.//Clean Water Act, 33 U.S.C. &#167; &#167; 1251-1376 (2006)
+regexp=/(.*?),\s+(\d{1,10})\s+(\w.\w.\w.)\s+(.*?)\s+\((\d{4})\)/    
+
+26.//Civil Rights Act of 1968 (Title VIII), 42 U.S.C. &#167; 3604(a) (2000)    
+regexp=/(.*?),\s+(\d{1,10})\s+(\w.\w.\w.)\s+(.*?)\s+\((\d{4})\)/    
+
+27.//Weaver v. Am. Oil Co., 276 N.E.2d 144, 147-48 (Ind. 1971)
+regexp=/(.*?),+\s+([0-9]+)+\s+([a-zA-Z0-9\.]+)+\s+([0-9]+),+\s+([0-9-]+)+\s+\(+(.*\.)+\s([0-9]+)+\)$/    
+
+28.//R. v. Oakes, [1986] 1 S.C.R. 103, 136-37 (Can.) 
+regexp=/(.*),+\s\[([0-9]+)\]+\s+([0-9]+)+\s+([a-zA-Z\.]+)\s+([0-9]+),\s([0-9-]+)\s\((.*)\)$/    
+
+29.//Libman v. Quebec (Attorney General), [1997] 3 S.C.R. 569  
+regexp=/(.*),+\s+\[([0-9]+)\]+\s+([0-9]+)+\s+(.*)\s+([0-9]+)$/    
+
+30.//Lawrence v. Texas, 539 U.S. 558, 572-73, 576-77 (2003) 
+regexp=/(.*),+\s+([0-9]+)\sU\.S\.\s+([0-9]+),\s+([0-9, -]+)\s\(([0-9]+)\)$/    
+
+31.//United States v. Richardson, 418 U.S. 166, 191 n.10 (1974)
+regexp=/(.*),+\s+([0-9]+)\sU\.S\.\s+([0-9]+),\s+([0-9]+)\s(.*)+\(([0-9]+)\)$/    
+
+32.//Vanhorne's Lessee v. Dorrance, 2 U.S. (2 Dall.) 304, 308 (1795) 
+regexp=/(.*),+\s+([0-9]+)\sU\.S\.\s\((.*)\)\s+([0-9]+),\s+([0-9]+)\s\(([0-9]+)\)$/    
+
+33.//539 U.S. 558, 572-73, 576-77 (2003)
+regexp=/([0-9]+)\sU\.S\.\s+([0-9]+),\s+([0-9, -]+)\s\(([0-9]+)\)$/    
+
+34.//539 U.S. 558, 572-73, 576-77 (2003)
+regexp=/([a-zA-Z ]+),\s+([a-zA-Z ]+),\s+([a-zA-Z\. ]+),\s+([a-zA-Z]+)\s+([0-9]+),\s+([0-9]+),\sat\s+([0-9]+)$/    
+
+35.//Maryland v. King, 133 S. Ct. 1958, 1968 (2013)
+regexp=/(.*), ([0-9]+) (.*) ([0-9]+), ([0-9]+) \(([0-9]+)\)$/   
+
+//end of plaw
+
+
+//start of pother
+1.//Bradford C. Mank, Global Warming: Is Injury to All Injury to None?, 35 ENVTL. L. 1,2,3, 51-56 (2005)
+regexp=/(.*?),\s+(.*?),\s+(\d{1,10})?\s+([a-zA-Z./\s]*)\s+([0-9,-/\s]*)\s+\((\d{4})\)/    
+
+
+2.//Sam Young, Treasury Weighing Options on Offshore Debt Workouts, Official Says, 2008 Tax Notes Today 127-3  (June 28, 2008).
+regexp=/(.*?),\s+(.*?),\s+(\d{4})\s+([a-zA-Z,/\s]+)\s+([0-9-,]+)[\s]?\((\w{1,10})\s+(\d{1,2}),\s+(\d{4})\)/    
+
+3.//HOLLY DOREMUS, WATER WAR IN THE KLAMATH BASIN: MACHO LAW, COMBAT BIOLOGY 2 (2008).
+regexp=/([a-zA-Z./\s]+),\s+([a-zA-Z.:?,/\s]+)\s+(\d{1,5})\s+\((\d{4})\)/    
+
+4.//Kenneth Pray, "Charity," ENCYCLOPEDIA OF THE SOCIAL SCIENCES (David L. Sills, 1962), p. 341.
+regexp=/(.*?),\s+"(.*?),"\s+(.*?)\s+\((.*?),\s+(\d{4})\),\s+(p.|pp.)\s+(\d{1,10}|\d{1,10}-\d{1,10})[.]?$/    
+
+5.//John Moustakas, Note, Group Rights in Cultural Property: Justifying Strict Inalienability, 74 Cornell L. Rev. 1179, 1183 n.12 (1989).
+regexp=/(.*?),\s+(.*?),\s+(\d{1,10})\s+([a-zA-Z./\s]+)\s+(.*?)\s+([n.]+)[\s]?(\d{1,10})\s+\((\d{4})\)/    
+
+6.//Frank H. Easterbrook, Substance and Due Process, 1982 Sup. Ct. Rev. 85, 114
+regexp=/(.*?),\s+(.*?),\s+(\d{4})\s+([a-zA-Z./\s]+)\s+([0-9,/\s]+)/    
+
+7.//Bradford C. Mank, Global Warming: Is Injury to All Injury to None?, 35 ENVTL. L. 1, 51-56 (2005)    
+regexp=/([a-zA-Z./\s]+),\s+([a-zA-Z.:,?/\s]+),\s+(\d{1,5})\s+([a-zA-Z./\s]+)\s+([0-9,-/\s]+)\s+\((\d{4})\)/    
+
+8.//Leslie Cauley & John Diamond, Telecoms Let NSA Spy on Calls, USA TODAY, Feb. 6, 2006, at A1
+regexp=/(.*?),\s+(.*?),\s+([A-Z/\s]+),\s+(\w{1,10})[.]?\s+(\d{1,2}),\s+(\d{4}),\s+(\w{2})\s+([A-Z0-9]+)/
+
+9.//Lo&#239;c Wacquant, The Curious Eclipse of Prison Ethnography in the Age of Mass Incarceration, 3(4) ETHNOGRAPHY 371, 373 (2002)
+regexp=/(.*?),\s+(.*?),\s+([0-9-]+)[\s+]?\(([0-9-]+)\)\s+(.*?)\s+([0-9,-/\s]+)[\s+]?\((\d{4})\)/
+
+10.//Alexander Nehamas, Only a Promise of Happiness: The Place of Beauty in a World of Art (Princeton: Princeton University Press, 2007), p. 265
+regexp=/([a-zA-Z./\s]+),\s+([a-zA-Z.:?,/\s]+)\s+\(([a-zA-Z/\s]+):[\s+]?([a-zA-Z/\s]+),[\s+]?(\d{4})\)[,\s+]?([pP./\s]+)([0-9-/\s]+)/
+
+11.//Alexander Nehamas, Only a Promise of Happiness: The Place of Beauty in a World of Art (Princeton: Princeton University Press, 2007)
+regexp=/([a-zA-Z./\s]+),\s+([a-zA-Z.:?,/\s]+)\s+\(([a-zA-Z/\s]+):[\s+]?([a-zA-Z/\s]+),[\s+]?(\d{4})\)/
+
+12.//William E. Connolly, The Desire to Punish, in THE ETHOS OF PLURALIZATION 41, 41-74 (1995)
+regexp=/(.*?),\s+(.*?),\s+in\s+([a-zA-Z:?/\s.]+)\s+([0-9-,/\s]+)\s+\((\d{4})\)/    
+
+13.//John Braithwaite, Principles of Restorative Justice, in RESTORATIVE JUSTICE AND CRIMINAL JUSTICE: COMPETING OR RECONCILABLE PARADIGMS? 1, 9 (Andrew von Hirsch, Julian V. Roberts, Anthony Bottoms, and Kent Roach & Mara Schiff eds., 2003)
+regexp=/(.*?),\s+(.*?),\s+in\s+([a-zA-Z:?/\s.]+)\s+([0-9-,/\s]+)\s+\((.*?)eds.,\s+(\d{4})\)/    
+
+14.//Maria Hartwig, Methods in Deception Research, in RESEARCH METHODS IN FORENSIC PSYCHOLOGY (Barry Rosenfeld & Steven Penrod eds., 2009)
+regexp=/(.*?),\s+(.*?),\s+in\s+([a-zA-Z:?/\s.]+)\s+\((.*?)eds.,\s+(\d{4})\)$/    
+
+15.//Carolyn Korsmeyer, ''Terrible Beauties'', in Matthew Kieran (ed.), Contemporary Debates in Aesthetics and the Philosophy of Art (Malden MA: Blackwell, 2006), pp. 51-63
+regexp=/(.*?),\s+\'(.*?)\',\s+in\s+(.*?)\s+\((ed|eds).\),\s+(.*?)\s+\((.*?):\s+(.*?),\s+(\d{4})\),\s+(pp|p).\s+(.*?)$/
+
+16.//David Weisbach & Cass R. Sunstein, Climate Change and Discounting the Future: A Guide for the Perplexed, 27 Yale L. & Pol'y Rev. 433 (2009)
+regexp=/(.*?),\s+(.*?),\s+(\d{1,10})\s+([a-zA-Z.&\'/\s]+)\s(.*?)\s+\((\d{4})\)/
+
+17.//Kanan Makiya and Hassan Mneimneh, "Manual for a 'Raid,'" New York Review of Books 49, no. 1 (January 17, 2002): 18-22
+regexp=/(.*?),\s+\"(.*?)\"\s+(.*?)\s+(\d[0-9]+),\s+no.\s+(.*?)\s+\((.*?)\s+(\d[0-9]+),\s+(\d[0-9]+)\):\s+(.*?)$/
+
+18.//Eric Brazil, Valley Farmers Win Ruling on Water, SAN FRANCISCO CHRON., May 5, 2001, at A3
+regexp=/(.*?),\s+(.*?),\s+(.*?),\s+(\w{1,5})\s+(\d{1,2}),\s+(\d{1,4}),\s+at\s+([a-zA-Z]+[0-9]+)$/
+
+19.//Endangered and Threatened Species: Listing of Several Evolutionary Significant Units (ESUs) of West Coast Steelhead, 62 Fed. Reg. 43,937 (Aug. 18, 1997).    
+regexp=/(.*?),\s+(\d{1,10})\s+([a-zA-Z./\s]+)\s+([0-9,/\s]+)\s+\(([a-zA-Z]+).\s+(\d{1,2}),\s+(\d{1,4})\)/
+
+20.//Stanley J. Tambiah, \"A Performative Approach to Ritual,\" Proceedings of the British Academy, vol. 65 (Oxford: Oxford University Press, 1979), 37    
+regexp=/(.*?),\s+\"(.*?),\"\s+(.*?),\s+vol.\s+(\d{1,10})\s+\(([a-zA-Z]+):\s+(.*?),\s+(\d{1,4})\),\s+(.*?)$/
+
+21.//REINHARD ZIMMERMANN, THE NEW GERMAN LAW OF OBLIGATIONS 88-89 (2005).
+regexp=/(.*?),\s+([a-zA-Z./\s]+)\s+([0-9-]+)\s+\((\d{1,4})\)$/    
+
+22.//Scott Birkey & R. Clark Morrison, Client Alert: Ninth Circuit Provides Guidance on Triggers for Environmental Impact Statements (Apr. 30, 2009), http://www.coxcastle.com/publications/publication.cfm?id=403
+regexp=/(.*?),\s+(.*?)\s+\(([a-zA-Z.]+)\s+(\d{1,2}),\s+(\d{4})\),\s+(.*?)$/    
+
+23.//E. Blass and P. Weight, "The MBA Is Dead-Part I: God Save the MBA," On the Horizon, 2005, vol. 13, no. 4, pp. 229-40
+regexp=/(.*?),\s+\"(.*?),\"\s+(.*?),\s+(\d{4}),\s+vol.\s+(\d{1,10}),\s+no.\s+(.*?),\s+pp.\s+(.*?)$/    
+
+24.//Harry Loewen, "Echoes of Drumbeats: The Movement of Exuberance among the Mennonite Brethren," 
+//Journal of Mennonite Studies 3 (1985), 118-27    
+regexp=/(.*?),\s+[\"\'](.*?)[,]?[\"\'][,]?\s+([a-zA-Z/\s]+)[,]?\s+(\d{1,10})\s+\((\d{4})\),\s+([0-9-,/\s]+)[.]?$/    
+
+25.//James Urry, "Mennonite economic development in the Russian mirror." In J. Friesen ed. Mennonites in Russia: essays in honour of Gerhard Lohrenz (Winnipeg: CMBC Publications, 1989).
+regexp=/(.*?),\s+[\"\'](.*?)[.,]?[\"\'][,]?\s+([IniN]+)\s+(.*?)\s+([edEDsS.]+)\s+(.*?)\s+\((.*?):\s+(.*?),\s+(\d{4})\)/    
+
+26.//Juan Linz and Alfred Stepan, Problems of Democratic Transition and Consolidation (Baltimore, Md.: Johns Hopkins University Press, 1996)
+regexp=/(.*?),\s+(.*?)\s+\((.*?):\s+(.*?),\s+(\d{4})\)/    
+
+27.//Ronald A. Brand, Private Law and Public Regulation in U.S. Courts, in 2 PRIVATE LAW, PRIVATE INTERNATIONAL LAW, AND JUDICIAL COOPERATION IN THE EU-US RELATIONSHIP 115 (Ronald A. Brand ed., 2005)
+regexp=/(.*?),\s+(.*?), ([IniN]+)\s+(\d{1,10})\s+([a-zA-Z,-:/\s]+)\s+([0-9,/\s]+)\s+\((.*?)\s+([edEDsS.]+),\s+(\d{1,4})\)/    
+
+28.//Martin Shapiro, Public Law and Judicial Politics, in POLITICAL SCIENCE: THE STATE OF THE DISCIPLINE II 365, 366 (Ada W. Finifter ed., 1993)
+regexp=/(.*?),\s+(.*?), ([IniN]+)\s+([a-zA-Z-:/\s]+)\s+([0-9,/\s]+)\s+\((.*?)\s+([edEDsS.]+),\s+(\d{1,4})\)/    
+
+29.//MALCOLM N. SHAW, INTERNATIONAL LAW 55 (4th ed. 1997)
+regexp=/(.*?),\s+(.*?)\s+([0-9,/\s]+)\((.*?)\s+([edsEDS.]+)\s+(\d{1,4})\)/    
+
+30.//38B AM. JUR. 2D Good Will &#167; 1 (2008)    
+regexp=/(\d+\w+)\s+([a-zA-Z0-9.&#;/\s]+)\s+\((\d{4})\)/    
+
+31.//d V. Adams, "Residential Learning Opportunities," in Student Development and Education in College Residence Halls, ed. David A. DeCoster and Phyllis Mable (Washington, D.C.: American College Personnel Association, 1974): 89
+regexp=/(.*?),+\s"(.*?),"+\s+in\s(.*?),+\s+ed\.\s(.*?)\s+(\(.*\:)+\s(.*?),+\s+(\d.*\)):+\s+([0-9-,]{1,9})/
+
+32.//Karen M. Ramsay and Jim Kinnie, "The Embedded Librarian," Library Journal 131, no. 6 (2006): 34-35
+regexp=/(.*?),+\s+\"(.*?),\"+\s+(.*?)\s+(\d.*),+\s+no.+\s+(\d.*?)+\s+(\(.*?\)):+\s([0-9-,]{1,9})/
+
+33.//Anthony P. Polito, Trade or Business Within the United States as an Interpretive Problem Under the Internal Revenue Code: Five Propositions, 4 HASTINGS Bus. L.J. 251 (2008)
+regexp=/(.*?),+\s+(.*?),+\s+(\d{1,10})+\s+(.*)\.+\s+(\d.*)+\s+(\(.*?\))/    
+
+34.//Annette Nellen, E-Commerce Taxation Links, http://www.cob.sjsu.edu/nellen_a/e-links.html (last visited Feb. 20, 2010)
+regexp=/(.*?),+\s(.*?),+\s+(.*www.*?)+\s+\(last visited+\s([a-zA-Z]{3}.+\s\d{1,2},\s\d{4}.*)\)/    
+
+35.//Sam Roberts, Westchester County Agrees to Desegregate Housing in Mostly White Towns, N.Y. TIMES, Aug. 11, 2009, at A14.
+regexp=/(.*?),\s+(.*?),+\s+([a-zA-Z./\s]*),+\s+([a-zA-Z]{3}).+\s+(\d{2}),+\s+(\d{4}),+\s+at\s+(.*)[.]$/    
+
+36.//Albert O. Hirschman, The Passions and the Interests: Political Arguments for Capitalism before Its Triumph 60-63 (1977)
+regexp=/(.*),\s+"(.*)"+\s+(.*?)\s+(\d.*),+\sno.+\s+(\d.*)\(+(\d{4})\),+\s+([0-9- ]+)$/
+
+37.//Lee Choon, S. (2008). Food security and climate change. Nutridate, 19(3), 6-9.
+regexp=/(.*)\s\(+(\d{4})\)\.+\s+(.*)\.+\s(.*),+\s+(\d.*)\(+(\d.*)\),+\s([1-9- ]+)\.$/
+
+38.//ROGER LOWENSTEIN, WHEN GENIUS FAILED: THE RISE AND FALL OF LONG-TERM CAPITAL MANAGEMENT (Random House, Inc. 2001)
+regexp=/(.*?),+\s+(.*)\(+(.*Inc\.)+\s+(\d.*\)$)/
+
+39.//C.A.E. GOODHART, THE CENTRAL BANK AND THE FINANCIAL SYSTEM 289 - 345 (MIT Press 1995)
+regexp=/(.*?),+\s(.*)\s+(\d.*)\s+(\(.*)\s+(\d.*\)$)/
+
+40.//Paul W. Hirt, ed., Terra Pacifica: People, and Place in the Northwest States and Western Canada (Pullman, Wash., 1998)
+//John M. Findley and Ken S. Coates, eds., Parallel Destinies: Canadian-American Relations West of the Rockies (Seattle, 2002)
+/*
+parse1:
+ED=Hirt, Paul W.
+BT=Terra Pacifica: People, and Place in the Northwest States and Western Canada
+PL=Pullman, Wash.
+PY=1998
+PT=Book
+
+*/
+regexp=/(.*?),+\s+([ed\.,|eds\.,])+(.*\()+(.*?),+(\s\d.*\))/
+
+41.//David E. Nye, American Technological Sublime (Cambridge, Mass., 1994)
+//Daniel A. Mazmanian and Dorothy Kennedy, Kikomun Creek Provincial Park Master Plan (Victoria, B.C., 1980)
+regexp=/(.*?),+\s+(.*\()+(.*\.),+(\s\d.*\))$/
+
+42.//Margaret Holmgren, "Forgiveness and the Intrinsic Value of Persons," American Philosophical Quarterly 30 (1993): 341-52.
+regexp=/(.*),+\s"(.*),"+\s+(.*)\s+([0-9]+)\s\(+(\d{4})\)\:+\s([0-9-]+)\.$/    
+
+43.//V. Conze, Europa der Deutschen: Ideen von Europa zwischen Reichstradition und Westorientierung (Munich, 2005).
+regexp=/(.*),+\s+(.*\:.*)\((.*),+\s(.*)\).$/    
+
+44.//David Greenberg, Nixon's Shadow: The History of an Image (New York: W. W. Norton 2003), 47-9 
+regexp=/(.*),+\s+(.*\:.*)\((.*)\:+([A-Za-z \.-]+)\s(.*)\),\s([0-9-]+)$/    
+
+45.//W. Loth, ‘L&#233;on Blum und das Europa der Dritten Kraft’, in R. Hohls, I. Schr&#246;der and H. Siegrist (eds), Europa und die Europ&#228;er. Quellen und Essays zur modernen europ&#228;ischen Geschichte (Wiesbaden, 2005), pp. 442–48.
+regexp=/(.*),\s+\'(.*)\',\s+(.*)\(eds\),+\s+(.*)\s\(+(.*),\s+([0-9]+)\),\s+(pp|p)\.(.*)\.$/    
+
+46.//W. Fliess, The Economic Reconstruction of Europe (London, 1944).
+regexp=/(.*),+\s+(.*)\s\(+(.*),+\s([0-9]+)+\)\.$/    
+
+47.//Mark Feeney, Nixon at the Movies (Chicago: University of Chicago Press 2004)
+regexp=/(.*),+\s+(.*)\s\(+(.*),+\s([0-9]+)+\)\.$/    
+
+48.//Stephen E. Ambrose, Nixon: Ruin and Recovery, 1973-1990 (New York: Simon and Schuster 1991), 166.
+regexp=/(.*),+\s+(.*:.*)\s\(+(.*):+(.*)\s+([0-9]+)\),+\s([0-9- ]+)\.$/    
+
+49.//Spain, T. Buchanan, ‘Anti-Fascism and Democracy in the 1930s’, European History Quarterly, 32, 1 (2002), pp. 39–57.
+regexp=/(.*),+\s+\'(.*)\',\s+(.*),+\s([0-9]+),\s+([0-9]+)\s\(+([0-9]+)\),\spp\.\s+([0-9-]+)\.$/    
+
+50.//J. Schot and T. Misa, 'Inventing Europe: Technology and the Hidden Integration of Europe', History and Technology, 21 (2005), pp. 1-19
+regexp=/(.*),+\s+\'(.*)\',\s+(.*),+\s([0-9]+),\s+([0-9]+)\s\(+([0-9]+)\),\spp\.\s+([0-9-]+)\.$/    
+
+51.//Bruce J. Schulman, 'Taping history', Journal of American History, vol. 85, no. 2, 1998, 576.
+regexp=/(.*),+\s+\'(.*)\',\s+(.*),\svol.\s+([0-9]+),\sno\.\s+([0-9]+),\s+(\d{4}),\s([0-9]+)\.$/    
+
+52.//S. van Rooyen, 'The Evaluation of Peer-Review Quality,' Learned Publishing 14, 2 (April 2001): 85-91
+regexp=/(.*),\s+'(.*)'+\s+([a-zA-Z ]+)+\s+([0-9]+),\s+([0-9]+)\s+(\(.*)+\s+([0-9]+)\):\s+([0-9-]+)$/    
+
+53.//Mao JH, et al. FBXW7 targets mTOR for degradation and cooperates with PTEN in tumor suppression. Science. 2008;321(5895):1499-1502
+regexp=/(.*),\set al\.\s+(.*)\.\s+(.*)\.+\s([0-9]+)\;+([0-9]+)\(([0-9]+)\):+([0-9-]+)$/    
+
+54.//REINHARD ZIMMERMANN, THE NEW GERMAN LAW OF OBLIGATIONS (2005)
+regexp=/(.*),\s+([a-zA-Z ]+)\s\(([0-9]+)\)$/    
+
+55.//W.D. Ross, The Right and the Good (Oxford: Oxford University Press, 2002 [1930])
+regexp=/(.*),\s+(.*)\s\(+(.*):\s+(.*),\s+([0-9]+)\s\[([0-9]+)\]\)$/    
+
+56.//John Locke, Two Treatises of Government, ed. P. Laslett [New York: Mentor, 1965]
+regexp=/(.*),\s+(.*),\sed\.\s(.*)\s\[(.*):\s(.*),\s([0-9]+)\]$/    
+
+57.//David Copp, \"\'Ought\' Implies \'Can\', Blameworthiness, and the Principle of Alternate Possibilities,\" in David Widerker and Michael McKenna (eds.), Moral Responsibility and Alternative Possibilities: Essays on the Importance of Alternative Possibilities (Burlington, Vt.: Ashgate, 2003), pp. 265-99
+regexp=/(.*),\s(\"(.*)\")\sin\s(.*)\s\(eds\.\),\s+(.*)\s\((.*):\s(.*),\s([0-9]+)\),\spp\.\s+([0-9-]+)$/    
+
+58.//Van Gelder, L. (2007d). Arts, briefly: A costly kiss. The New York Times. January 17, 2007, A20
+regexp=/([a-zA-Z ,]+)\.\s\((.*)\)\.\s+([a-zA-Z, :]+)\.\s+(.*)\.\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+([0-9]+),\s+([0-9]+),\s+(.*)$/    
+
+59.//Jay Winter, Sites of Memory, Sites of Mourning: The Great War in European Cultural History (Cambridge, 1996), pp. 33-45
+regexp=/([A-Za-z\. ]+), ([A-Z][A-Za-z\,\: ]+) \(([A-Z][A-Za-z ]+), (\d{4})\), pp?. ([0-9\-]+)$/    
+
+60.//Stefan Goebel, The Great War and Medieval Memory: War, Remembrance and Medievalism in Britain and Germany, 1914-1940 (Cambridge, 2007)
+regexp=/([A-Za-z\. ]+), ([A-Z][A-Za-z0-9\-\,\: ]+) \(([A-Z][A-Za-z ]+), (\d{4})\)$/    
+
+61.//George L. Mosse, Fallen Soldiers: Reshaping the Memory of the World Wars (Oxford and New York, 1990)
+regexp=/([A-Za-z\. ]+), ([A-Z][A-Za-z\,\: ]+) \(([A-Z][A-Za-z ]+), (\d{4})\)$/    
+
+62.//Ebersole, S. & Vorndam, M. 2003. \"Adoption of computer-based instructional methodologies: A case study\", International Journal on E-Learning, vol. 22, no. 2, pp. 15-20. 
+regexp=/(.*) (\d{4}). \"(.*)\",\s(.*), vol. ([0-9]+),\sno.\s([0-9]+),\spp.\s([0-9-]+).$/    
+
+63.//Jourdain, E., & Roques, J. P. 2009, ApJ, 704, 17 
+regexp=/(.*) (\d{4}),\s(.*),\s([0-9]+),\s([A-Z0-9]+)$/    
+
+64.//Jourdain, E., & Roques, J. P. 2009a, ApJ, 704, 17 
+regexp=/(.*) (\d{4}[a-zA-Z]),\s(.*),\s([0-9]+),\s([0-9]+)$/    
+
+65./*//Hardt, W.D., L.M. Chen, K.E. Schuebel, X.R. Bustelo, and J.E. Galn. 1998. S. typhimurium encodes an activator of Rho GTPases that induces membrane ruffling and nuclear responses in host cells. Cell. 93:815-826. http://dx.doi.org/10.1016/S0092-8674(00)81442-7*/
+regexp=/(.*). (\d{4}).\s([A-Za-z0-9: ]+).\s(.*).\s([A-Za-z0-9]+):([0-9-]+).\s(http\:\/\/.*)$/    
+
+66.//Bond, H. E., Bedin, L. R., Bonanos, A. Z., et al. 2009. ApJ, 695, L154
+regexp=/(.*), et al. (\d{4}). (.*), ([0-9]+), ([0-9A-Z]+)$/    
+
+67.//Bond, H. E., Bedin, L. R., Bonanos, A. Z. 2009a, ApJ, 695, L154
+regexp=/(.*). (\d{4}[a-z]). (.*), ([0-9]+), ([0-9A-Z]+)$/    
+
+68.//Elmar Altvater, \"The Failure of Neoliberalism in the Financial Market Crisis\", Development Dialogue, Vol. 51, No. 1 (2009), pp. 73-85
+regexp=/(.*), \"(.*)\", (.*), Vol. ([0-9]+), No. ([0-9]+) \((\d{4})\), pp. ([0-9-]+)$/    
+
+69.//S. Jasanoff, Introduction: Science and citizenship: a new synergy. Science and Public Policy 2004;31(2):90-94
+regexp=/(.*), ([A-Za-z0-9 :]+). (.*) (\d{4});([0-9]+)\((.*)\):([0-9-]+)$/    
+
+70.//Tooze, J., C. Coulon, V. Alexander and R. Adachi: Measurements of some cellular changes during the fixation of amphibian erythrocytes with osmium tetroxide solutions. J. Cell Biol. 22, 551-563 (1964)
+regexp=/(.*): ([A-Z][A-Za-z ]+)\. ([A-Z][A-Za-z \.]+) ([0-9]+), ([0-9][0-9-]+) \((\d{4})\)$/    
+
+71.//Day, J. H. The complexity of the biotic environment. In: Speciation in the sea, pp. 31-49. Ed. by J. P. Harding and N. Tebble. London: Systematics Association Publications 1963
+regexp=/(.*) ([A-Z][A-Za-z ]+)\. In: ([A-Z].*), (PP|pp.) ([0-9][0-9-]+). Ed. (.*)\. ([A-Z].*): ([A-Z].*) ([\(\)0-9]+)$/    
+
+72.//Baron, R. M., & Kenny, D. A. (1986). Moderator-mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations. Journal of Personality and Social Psychology, 51, 1173-1182. http://doi.org/d7bst5
+regexp=/(.*) \((\d{4})\)\. ([A-Z][A-Za-z- :,_]+)\. ([A-Z][A-Za-z0-9 ]+), ([0-9]+), ([0-9-]+). (.*)$/    
+
+73.//Prine, R.K., Ballard, C. and Robinson, D.M. (2001), "Perceptions of community policing in a small town", American Journal of Criminal Justice, Vol. 25 No. 2, pp. 211-221.
+regexp=/(.*)\((\d{4})\), \"(.*)\", (.*), (Vol.|vol.|VOL.) ([0-9ivIVX]+) (NO.|no.|No.) ([0-9]+), (PP.|pp.|Pp.) ([0-9-]+).$/    
+
+74.//I. Soares de Freitas, C. Brand&#227;o Jacobina, E. Cabral da Silva, and T. M. Oliveira, \"Single-phaseAC-DC-ACthree-level three-leg converter,\" IEEE Trans. Ind. Electron., vol. 57, no. 12, pp. 4075-4084, Dec. 2010.
+regexp=/(.*), \"(.*)\" (.*), (vol.|Vol.|VOL.) ([0-9iIvVxX]+), (no.|NO.|No.) ([0-9]+), (PP.|pp.|Pp.) ([0-9-]+), ([A-Za-z]+). (\d{4}).$/    
+
+75.//Burdsey, Daniel. \"Role with the Punches: The Construction and Representation of Amir Khan as a Role Model for Multiethnic Britain.\" Sociological Review 55.3 (2007): 611-31.
+regexp=/(.*)\. \"(.*)\" ([A-Za-z ]+) ([0-9]+)\.([0-9]+) \((\d{4})\): ([0-9-]+).$/    
+
+76.//Frankenhauaser M, Dunne E, Lundberg U. Sex differences in sympathetic-adrenal medullary reactions induced by different Stressors. Psychopharacology (Bed). 1976 May 5;47(1):1-5.
+regexp=/(.*)\. ([A-Z][A-Za-z -]+)\. (.*)\. (\d{4}) ([A-Za-z]+) ([0-9]+);([0-9]+)\(([0-9]+)\):([0-9-]+).$/    
+
+77.//Appadurai, A. \"Playing with Modernity: The Decolonization of Indian Cricket.\" Consuming Modernity: Public Culture in a South Asian World. Ed. Carol A. Breckenridge. Minneapolis, MN: University of Minnesota Press, 1995. 23-48.
+regexp=/(.*) \"(.*)\.\" (.*) (Ed.|ed.) (.*)\. (.*)\: (.*), (\d{4})\. ([0-9-]+).$/    
+
+78.//Liederbach M. Movement and function in dance. In: Brownstein B, Bronner S (eds): Evaluation, Treatment and Outcomes of Functional Movement in Orthopaedic and Sports Physical Therapy. New York: Churchill Livingstone, 1997, pp. 251-300.
+regexp=/(.*)\. ([A-Z][A-Za-z ]+)\. (In:|in:) (.*) (\(eds\):) (.*)\. (.*)\: (.*)\, (\d{4})\, (PP.|pp.|Pp.) ([0-9-]+).$/    
+
+79.//Gupta, A. and Govindarajan, V. (2000), \"Knowledge flows within multinational corporations\", Strategic Management Journal, Vol. 21, pp. 473-496. 
+regexp=/(.*) \((\d{4})\), \"(.*)\", (.*), (vol.|Vol.) ([0-9iIvVxX]+), (PP.|pp.|Pp.) ([0-9-]+).$/    
+
+80.//I.M Filanovsky and H. Baltes, \"CMOS Schmitt Trigger Design,\" IEEE Trans. Circuits Syst. I, Fundam. Theory Appl., vol. 41, no. 1, Jan. 1994, pp. 46-49. 
+regexp=/(.*), \"(.*),\" (.*), (vol.|VOL.|Vol.) ([0-9iIvVxX]+), (NO.|no.|No.) ([0-9]+), ([A-Za-z]+)\. (\d{4}), (PP.|Pp.|pp.) ([0-9-]+).$/    
+
+81.//George E. Nickelsburg, I Enoch I, Hermeneia (Minneapolis, 2001), 7, 25; 
+regexp=/(.*), (.*), (.*) \((.*), (\d{4})\), ([0-9]+), ([0-9]+);$/    
+
+82.//F. Garcia Martínez, Qumran and Apocalyptic, STDJ 9 (Leiden, 1992), 58;
+regexp=/(.*), (.*), (.*) \((.*), (\d{4})\), ([0-9]+);$/    
+
+83.//Azid, T., M. Aslam and M. O. Chaudary (2001), Poverty, female labour force participation and cottage industry: A case study of cloth embroidery in Rural Multan. The Pakistan Development Review, Volume 40(4), pp 1105-1118.
+regexp=/(.*) \((\d{4})\), (.*)\. (.*)\, (Volume|Vol.|volume|vol.) ([0-9]+)\(([0-9]+)\), (pp|PP|pp.|Pp.|pp) ([0-9-]+).$/    
+
+84.//see Louis Chevalier, Montmartre du Plaisir et du Crimes, Paris 1980, pp.321-31.
+regexp=/(see|See|SEE) (.*)\, (.*)\, (.*) (\d{4}), (pp.|PP |Pp |pp)([0-9-]+).$/    
+
+85.//Sisley Huddleston, Bohemian, Literary and Social Life in Paris, London 1928, p.5.
+regexp=/([A-Za-z ]+)\, (.*)\, (.*) (\d{4})\, (p.|pp.|PP.|Pp|Pp.)([0-9]+)\.$/    
+
+86.//Lichu&#353;ina, S., Sudavi&#269;ius, A., Ju&#353;k&#279;nas, R., Bu&#269;inskien&#279;, D., Juzeli&#363;nas, E. 2008. Deposition of cobalt-rich Zn-Co alloy coatings of a high corrosion resistance, Transactions of Institute of Metal Finishing 86(30): 141-147. http://dx.doi.org/10.1179/174591908X304162
+regexp=/(.*) (\d{4})(\.|\,) (.*)\, (.*) ([0-9]+)\(([0-9]+)\)\: ([0-9-]+)\. (http:.*|www.*)$/    
+
+87.//Marcus, P., Oudar, J. 2002. Corrosion mechanism in theory and practice. New York: Marcel Dekker Inc. http://dx.doi.org/10.1201/9780203909188
+regexp=/(.*) (\d{4})(\.|\,) (.*)\. (.*): (.*) (http:.*|www.*)$/    
+
+88.//Gannon-Leary, P., Trayhurn, D. & Home, M. (2009). Good images, effective messages? Working with students and educators on academic practice understanding. Journal of Further and Higher Education, 33(4), 435-448. http://dx.doi.org/10.1080/03098770903272511
+regexp=/(.*) (\(|)(\d{4})(\)|)(\.|\,) (.*)\. (.*)\, ([0-9]+)\(([0-9]+)\), ([0-9-]+)\. (http:.*|www.*)$/    
+
+89.//Puel A, Cypowyj S, Bustamante J, et al. . Chronicmucocutaneous candidiasis in humanswith inborn errors of interleukin-17 immunity. Science 2011;332(6025):65-68.
+regexp=/(.*)(et al.|\.) (.*)\. (.*) (\d{4})(\;|\,)([0-9]+)\(([0-9]+)\)\:([0-9-]+)\.$/    
+
+90.//Grant Boyle, ""Greenhouse Gas Emissions Trading and Duties of the State: A Preliminary Review of Alberta's Specified Gas Emitters Regulation"" (2008) 2 Carbon and Climate Law Review 160;
+regexp=/(.*), \"(.*)\" \((\d{4})\) ([0-9]+) (.*) ([0-9-]+)$/ 
+
+91.//Eric Helleiner & Jason Thistlethwaite. ""Subprime catalyst: Financial regulatory reform and the strengthening of US carbon market governance"" (2013) 7:4 Regulation & Governance 496;
+regexp=/(.*) \"(.*)\" \((\d{4})\) ([0-9]+)\:([0-9]+) (.*) ([0-9-]+)$/
+
+92.//Beg, A.A., J.E. Sommer, J.H. Martin, and P. Scheiffele. 2007. &#945;2-Chimaerin Is an Essential EphA4 Effector in the Assembly of Neuronal Locomotor Circuits. Neuron. 55:768-778. http://dx.doi.org/10.1016/j.neuron.2007.07.036
+regexp=/(.*) (\d{4})\. (.*)\. (.*)\. ([0-9]+)\:([0-9-]+)\. (http.*|www.*)$/ 
+
+93.//Chamberlain, P.G., Porter, D., 'The Modified Mild-Slope Equation', Journal of Fluid Mechanics, Cilt 291, 393-407, 1995.
+regexp=/(.*), \'(.*)\', (.*), (Cilt|cilt|CILT|VO|vo) ([A-Za-z0-9]+), ([0-9-]+), (\d{4})\.$/   
+
+94.//Kirby, J.T., 'A note on linear surface wave- current interaction over slowly varying topography', Journal of Geophysical Research, Cilt 89, No C1, 745-747, 1984.
+regexp=/(.*), \'(.*)\', (.*), (Cilt|cilt|CILT|VO|vo) ([A-Za-z0-9]+), (No|NO|issue|Issue|ISS|iss) ([A-Za-z0-9]+), ([0-9-]+), (\d{4})\.$/ 
+
+95.// (b) James, S. L., Adams, C.J., Bolm, C., Braga, D., Collier, P., Friscic, T., Grepioni, F., Harris, K. D. M., Hyett, G., Jones, W., Krebs, A., Mack, J., Maini, L., Orpen, A. G., Parkin, I. P., Shearouse, W. C., Steed, J. W., Waddell, D. C. Chem. Soc. Rev. 2012, 41, 413.
+regexp=/\((.*)\) (.*[A-Z])\. (.*) (\d{4}), ([0-9A-Za-z]+), ([0-9-]+)\.$/ 
+
+96.//Chen, T., Guo, C., Goto, M., Han, L.-B. Chem. Commun. 2013, 49, 7498.
+regexp=/(.*[ABCDEFGHIKLMNOPQRSTUVWXYZ])\. (.*)\. (\d{4}), ([0-9]+), ([0-9-]+)\.$/ 
+
+97.//(a) Soloshonok, V. A., Izawa, K. Asymmetric Synthesis and Application of a-Amino Acids; Oxford University Press: Washington, DC, 2009.
+regexp=/\((.*)\) (.*[A-Z])\. (.*)\; (.*)\: (.*), (\d{4})\./    
